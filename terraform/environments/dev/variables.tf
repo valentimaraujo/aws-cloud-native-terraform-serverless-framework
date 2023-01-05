@@ -1,0 +1,9 @@
+variable "environment" {}
+variable "write_capacity" {}
+variable "read_capacity" {}
+variable "jwt_secret" {}
+variable "admin_user_name" {}
+variable "admin_user_email" {}
+variable "admin_user_role" {}
+variable "admin_user_id" {}
+variable "admin_user_password" {}
