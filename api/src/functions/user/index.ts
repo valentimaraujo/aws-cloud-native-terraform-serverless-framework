@@ -48,6 +48,7 @@ const userAuthorizer = {
         JWT_SECRET: '${ssm:${self:custom.stage}-jwt-secret}',
     }
 };
+
 export {
     userRegister,
     userLogin,
